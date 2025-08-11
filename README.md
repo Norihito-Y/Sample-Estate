@@ -1,7 +1,7 @@
-# ㍿あーばんさんぷる サンプルサイト
+# ㍿Sample Estate サンプルサイト
 
 ## 概要
-湘南エリアの不動産・建築・まちづくりを手がける「㍿あーばんさんぷる」のサンプルサイトです。レスポンシブ対応・高いデザイン性を重視し、Bootstrap・Swiper・jQuery・SVG等を活用しています。
+「㍿Sample Estate」のサンプルサイトです。レスポンシブ対応・高いデザイン性を重視し、Bootstrap・Swiper・jQuery・SVG等を活用しています。
 
 ## サイトの特徴・主な技術
 - **HTML5 / SCSS / JavaScript (jQuery)**
