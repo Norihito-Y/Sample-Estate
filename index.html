@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>㍿Sample Estate</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loader-logo japanese-font">㍿Sample Estate</div>
+    </div>
+    <div id="main-content">
+        <div id="mouse-stalker"></div>
+
+        <header class="header">
+            <div class="container-fluid d-flex justify-content-between align-items-start py-3">
+                <div class="header-logo japanese-font">
+                    <span>㍿Sample Estate</span>
+                </div>
+                <nav class="header-nav">
+                    <ul class="d-flex gap-4 japanese-font">
+                        <li><a href="#">Sample Estateについて</a></li>
+                        <li><a href="#">私たちにできること</a></li>
+                        <li><a href="#">事業内容</a></li>
+                        <li><a href="#">会社案内</a></li>
+                        <li><a href="#">採用情報</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <button class="button js-button" type="button">
+                    <span class="button-bar"></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <section class="hero-section mv01">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-media"><img src="./IMG/Hero2.webp" alt="ヒーロー画像1"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-media"><img src="./IMG/Hero4.webp" alt="ヒーロー画像2"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-media"><img src="./IMG/Hero3.webp" alt="ヒーロー画像3"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-media"><img src="./IMG/Hero1.webp" alt="ヒーロー画像1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container hero-content">
+                <h1 class="hero-title slide-title">Story of Your<br>Life</h1>
+                <p class="hero-subtitle">
+                    それは<br>
+                    あなた達<br>
+                    ひとりひとりの物語。
+                </p>
+            </div>
+        </section>
+
+        <!-- story セクション -->
+        <section class="story-section py-5 mb-5">
+            <div class="container position-relative" style="min-height: 400px;">
+                <!-- 中央画像スライダー -->
+                <div class="row justify-content-center">
+                    <div class="col-12 position-relative d-flex justify-content-center align-items-center"
+                        style="min-height: 400px;">
+                        <!-- 左テキスト -->
+                        <div class="story-left">
+                            <h2 class="story-title japanese-font mb-5 fw-bold story-left-abs story-left-title">
+                                あなたらしさ<br>を育てていく<br>物語</h2>
+                            <p
+                                class="story-desc japanese-font mb-5 story-section-paragraph story-left-abs story-left-text">
+                                Sample
+                                Estateは、本事業を通じて、時代を超えていつまでも続く、湘南における不動産の価値の創造を目指し、この場所特有の、ひとりひとりの暮らしと生活を充実させるまちづくりのために貢献します。
+                            </p>
+                            <div
+                                class="viewmore-row d-flex align-items-center gap-3 mt-4 story-left-abs story-left-btn">
+                                <span class="viewmore-text fw-bold"
+                                    style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW MORE</span>
+                                <a href="#"
+                                    class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                                    style="width:60px; height:60px; border:2px solid #fff; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24"
+                                        style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <polygon points="8,6 18,12 8,18" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 画像スライダー中央 -->
+                        <div class="story-center w-80 mx-auto d-flex align-items-center justify-content-center story-center-custom"
+                            style="max-width: 750px; min-width: 320px;">
+                            <div class="swiper story-swiper w-100 h-100">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <svg viewBox="0 0 1000 1000" width="100%" height="100%"
+                                            class="story-img-center-svg">
+                                            <defs>
+                                                <clipPath id="wave-clip" clipPathUnits="objectBoundingBox">
+                                                    <path
+                                                        d="M0,0.04 Q0.0625,0.02 0.125,0.04 Q0.1875,0.06 0.25,0.04 Q0.3125,0.02 0.375,0.04 Q0.4375,0.06 0.5,0.04 Q0.5625,0.02 0.625,0.04 Q0.6875,0.06 0.75,0.04 Q0.8125,0.02 0.875,0.04 Q0.9375,0.06 1,0.04 L1,0.96 Q0.9375,0.98 0.875,0.96 Q0.8125,0.94 0.75,0.96 Q0.6875,0.98 0.625,0.96 Q0.5625,0.94 0.5,0.96 Q0.4375,0.98 0.375,0.96 Q0.3125,0.94 0.25,0.96 Q0.1875,0.98 0.125,0.96 Q0.0625,0.94 0,0.96 Z" />
+                                                </clipPath>
+                                            </defs>
+                                            <image href="./IMG/Section1-1.webp" width="1000" height="1000"
+                                                clip-path="url(#wave-clip)" preserveAspectRatio="xMidYMid slice" />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <svg viewBox="0 0 1000 1000" width="100%" height="100%"
+                                            class="story-img-center-svg">
+                                            <defs>
+                                                <clipPath id="wave-clip2" clipPathUnits="objectBoundingBox">
+                                                    <path
+                                                        d="M0,0.04 Q0.0625,0.02 0.125,0.04 Q0.1875,0.06 0.25,0.04 Q0.3125,0.02 0.375,0.04 Q0.4375,0.06 0.5,0.04 Q0.5625,0.02 0.625,0.04 Q0.6875,0.06 0.75,0.04 Q0.8125,0.02 0.875,0.04 Q0.9375,0.06 1,0.04 L1,0.96 Q0.9375,0.98 0.875,0.96 Q0.8125,0.94 0.75,0.96 Q0.6875,0.98 0.625,0.96 Q0.5625,0.94 0.5,0.96 Q0.4375,0.98 0.375,0.96 Q0.3125,0.94 0.25,0.96 Q0.1875,0.98 0.125,0.96 Q0.0625,0.94 0,0.96 Z" />
+                                                </clipPath>
+                                            </defs>
+                                            <image href="./IMG/Section1-2.webp" width="1000" height="1000"
+                                                clip-path="url(#wave-clip2)" preserveAspectRatio="xMidYMid slice" />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <svg viewBox="0 0 1000 1000" width="100%" height="100%"
+                                            class="story-img-center-svg">
+                                            <defs>
+                                                <clipPath id="wave-clip3" clipPathUnits="objectBoundingBox">
+                                                    <path
+                                                        d="M0,0.04 Q0.0625,0.02 0.125,0.04 Q0.1875,0.06 0.25,0.04 Q0.3125,0.02 0.375,0.04 Q0.4375,0.06 0.5,0.04 Q0.5625,0.02 0.625,0.04 Q0.6875,0.06 0.75,0.04 Q0.8125,0.02 0.875,0.04 Q0.9375,0.06 1,0.04 L1,0.96 Q0.9375,0.98 0.875,0.96 Q0.8125,0.94 0.75,0.96 Q0.6875,0.98 0.625,0.96 Q0.5625,0.94 0.5,0.96 Q0.4375,0.98 0.375,0.96 Q0.3125,0.94 0.25,0.96 Q0.1875,0.98 0.125,0.96 Q0.0625,0.94 0,0.96 Z" />
+                                                </clipPath>
+                                            </defs>
+                                            <image href="./IMG/Section1-3.webp" width="1000" height="1000"
+                                                clip-path="url(#wave-clip3)" preserveAspectRatio="xMidYMid slice" />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <svg viewBox="0 0 1000 1000" width="100%" height="100%"
+                                            class="story-img-center-svg">
+                                            <defs>
+                                                <clipPath id="wave-clip4" clipPathUnits="objectBoundingBox">
+                                                    <path
+                                                        d="M0,0.04 Q0.0625,0.02 0.125,0.04 Q0.1875,0.06 0.25,0.04 Q0.3125,0.02 0.375,0.04 Q0.4375,0.06 0.5,0.04 Q0.5625,0.02 0.625,0.04 Q0.6875,0.06 0.75,0.04 Q0.8125,0.02 0.875,0.04 Q0.9375,0.06 1,0.04 L1,0.96 Q0.9375,0.98 0.875,0.96 Q0.8125,0.94 0.75,0.96 Q0.6875,0.98 0.625,0.96 Q0.5625,0.94 0.5,0.96 Q0.4375,0.98 0.375,0.96 Q0.3125,0.94 0.25,0.96 Q0.1875,0.98 0.125,0.96 Q0.0625,0.94 0,0.96 Z" />
+                                                </clipPath>
+                                            </defs>
+                                            <image href="./IMG/Section1-4.webp" width="1000" height="1000"
+                                                clip-path="url(#wave-clip4)" preserveAspectRatio="xMidYMid slice" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 右テキスト -->
+                        <div class="story-right">
+                            <div class="story-side-text japanese-font story-right-abs">
+                                わたし達が考える、新たなまちづくり。<br>
+                                新たなライフスタイルの創造。<br>
+                                新たな価値の創造。<br>
+                                それをみんなと育んでいき、<br>
+                                共に成長すること。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about セクション -->
+        <section class="about-section py-5">
+            <div class="container">
+                <div class="row align-items-center h-100" style="min-height:80vh;">
+                    <!-- 左カラム -->
+                    <div class="col-lg-6 mb-5 mb-lg-0 pt-5 pb-5 h-100">
+                        <div class="mb-3 small japanese-font fw-bold">私たちにできること</div>
+                        <h2 class="about-title japanese-font fw-bold mb-5 ls-wide lh-lg">
+                            この場所だからこそできる<br>
+                            一人多様の物語を<br>
+                            デザインする
+                        </h2>
+                        <p class="about-desc japanese-font mb-5 ls-wider lh-lg">
+                            Sample Estateでは、「建物を設計し、不動産の売買・仲介営業をする"
+                            だけではなく、地域にまつわる様々な問題や課題、一人一人の抱える課題を
+                            一緒に解決することを目的とし、まちづくりや地域活性化、そして一人一人
+                            のライフスタイルを重視した総合的な建築ソリューション事業を行っており
+                            ます。「この場所だからできる」「一人一つではない」ライフスタイルを、
+                            地域とお客様の雰囲気に合わせてご提案し、トータルでサポートいたします。
+                        </p>
+                        <div class="viewmore-row d-flex align-items-center gap-3 mt-4 viewmore-desktop"
+                            style="position:relative;">
+                            <span class="viewmore-text fw-bold"
+                                style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW MORE</span>
+                            <a href="#"
+                                class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                                style="width:60px; height:60px; border:2px solid #fff; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                    style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="8,6 18,12 8,18" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 右カラム -->
+                    <div class="col-lg-6 d-flex justify-content-end align-items-center h-100 p-0">
+                        <svg class="about-svg" width="100%" height="580" viewBox="0 0 500 580" style="display:block;"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100%" height="100%" fill="#1E1F23" />
+                            <mask id="mask">
+                                <rect width="100%" height="100%" fill="white" />
+                                <circle cx="250" cy="70" r="72" fill="black" />
+                                <circle cx="460" cy="220" r="72" fill="black" />
+                                <circle cx="361" cy="480" r="72" fill="black" />
+                                <circle cx="139" cy="480" r="72" fill="black" />
+                                <circle cx="40" cy="220" r="72" fill="black" />
+                            </mask>
+                            <!-- アニメーション用パス（大円の外周上の接点から接点まで） -->
+                            <path id="arc1" stroke="white" stroke-width="2" fill="none" opacity="0" />
+                            <path id="arc2" stroke="white" stroke-width="2" fill="none" opacity="0" />
+                            <path id="arc3" stroke="white" stroke-width="2" fill="none" opacity="0" />
+                            <path id="arc4" stroke="white" stroke-width="2" fill="none" opacity="0" />
+                            <path id="arc5" stroke="white" stroke-width="2" fill="none" opacity="0" />
+                            <!-- 矢印 -->
+                            <circle cx="250" cy="70" r="70" stroke="white" stroke-width="2" fill="none" />
+                            <text x="250" y="78" fill="white" font-size="22" text-anchor="middle"
+                                font-family="sans-serif">お客様</text>
+                            <circle cx="460" cy="220" r="70" stroke="white" stroke-width="2" fill="none" />
+                            <text x="460" y="228" fill="white" font-size="22" text-anchor="middle"
+                                font-family="sans-serif">従業員</text>
+                            <circle cx="379.8" cy="467.7" r="70" stroke="white" stroke-width="2" fill="none" />
+                            <text x="379.8" y="475.7" fill="white" font-size="22" text-anchor="middle"
+                                font-family="sans-serif">利益</text>
+                            <circle cx="120.2" cy="467.7" r="70" stroke="white" stroke-width="2" fill="none" />
+                            <text x="120.2" y="475.7" fill="white" font-size="22" text-anchor="middle"
+                                font-family="sans-serif">資産</text>
+                            <circle cx="40" cy="220" r="70" stroke="white" stroke-width="2" fill="none" />
+                            <text x="40" y="228" fill="white" font-size="22" text-anchor="middle"
+                                font-family="sans-serif">地域</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="about-outline-text min-vh-30">
+                <svg viewBox="0 0 1400 200" class="svg-text" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" style="stop-color:rgba(255,255,255,1);stop-opacity:1" />
+                            <stop offset="20%" style="stop-color:rgba(255,255,255,0.8);stop-opacity:1" />
+                            <stop offset="40%" style="stop-color:rgba(255,255,255,0.4);stop-opacity:1" />
+                            <stop offset="60%" style="stop-color:rgba(255,255,255,0.1);stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:rgba(255,255,255,0);stop-opacity:0" />
+                        </radialGradient>
+                        <mask id="textMask">
+                            <rect width="100%" height="100%" fill="black" />
+                            <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+                                font-family="'Montserrat', 'Noto Sans JP', sans-serif" font-size="120" font-weight="700"
+                                letter-spacing="0.04em" fill="white">What we can do is...</text>
+                        </mask>
+                    </defs>
+                    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+                        font-family="'Montserrat', 'Noto Sans JP', sans-serif" font-size="120" font-weight="700"
+                        letter-spacing="0.04em" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"
+                        class="base-text">What we can do is...</text>
+                    <rect x="0" y="0" width="1400" height="200" fill="url(#glowGradient)" mask="url(#textMask)"
+                        class="glow-overlay" opacity="0" />
+                </svg>
+            </div>
+            <!-- 992px以下でのみ表示するVIEW MOREボタン（SVGテキストの後ろ） -->
+            <div class="viewmore-row d-flex align-items-center gap-3 mt-4 viewmore-mobile justify-content-center"
+                style="position:relative;">
+                <span class="viewmore-text fw-bold english-font"
+                    style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW ALL</span>
+                <a href="#" class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                    style="width:60px; height:60px; border:2px solid #000; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                    <svg width="24" height="24" viewBox="0 0 24 24"
+                        style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="8,6 18,12 8,18" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- business セクション -->
+        <section class="business d-flex flex-column align-items-center justify-content-start py-5">
+            <h1 class="display-1 fw-bold text-center mb-2 py-3">Business</h1>
+            <div class="text-center mb-3 japanese-font">事業案内</div>
+            <p class="text-center mt-4 mb-5 japanese-font">
+                Sample Estateでは、お客様への価値ある商品・優れたサービスの提供を目指し、<br>一人一人に合わせてカスタムされた建設・不動産ソリューション事業を展開し、街を活性化させています。</p>
+            <div class="container mt-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-5 justify-content-center">
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/real-estate.svg" alt="不動産事業" style="height:100px;"></a>
+                        <div class="japanese-font">不動産事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/property-management.svg" alt="プロパティマネジメント事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">プロパティマネジメント事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/agriculture.svg" alt="農業事業" style="height:100px;"></a>
+                        <div class="japanese-font">農業事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/apartment-business.svg" alt="アパート・マンション事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">アパート・マンション事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/renovation.svg" alt="リノベーション事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">リノベーション事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/property-sales.svg" alt="分譲事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">分譲事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/smart-city-project.svg" alt="スマートシティプロジェクト事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">スマートシティプロジェクト事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/ict.svg" alt="不動産ICT事業" style="height:100px;"></a>
+                        <div class="japanese-font">不動産ICT事業</div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center mb-4">
+                        <a href="#" class="mb-3"><img src="./IMG/convenience-store.svg" alt="コンビニ事業"
+                                style="height:100px;"></a>
+                        <div class="japanese-font">コンビニ事業</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- works セクション -->
+        <section class="works py-5">
+            <div class="container">
+                <div class="d-flex align-items-center mb-2">
+                    <h2 class="display-3 fw-bold mb-0">Works</h2>
+                    <div class="ms-4 viewmore-row d-flex align-items-center gap-3" style="position:relative;">
+                        <span class="viewmore-text fw-bold"
+                            style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW ALL</span>
+                        <a href="#"
+                            class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                            style="width:60px; height:60px; border:2px solid #000; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="8,6 18,12 8,18" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="mb-4 mt-2">実績</div>
+                <div class="swiper works-swiper">
+                    <div class="swiper-wrapper pb-5">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works1.webp" class="img-fluid w-100" alt="Works1"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#葉山　#新築</div>
+                                <div class="fw-bold fs-5">倉庫の中の宝箱　フォレスト葉山</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works2.webp" class="img-fluid w-100" alt="Works2"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#茅ヶ崎　#リノベーション</div>
+                                <div class="fw-bold fs-5">優雅な老後　シーサイドテラス茅ヶ崎</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works3.webp" class="img-fluid w-100" alt="Works3"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#葉山　#新築</div>
+                                <div class="fw-bold fs-5">見晴らしのいい秘密基地　ザ・ヴィラ葉山</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works4.webp" class="img-fluid w-100" alt="Works4"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#コンビニ　#新規オープン</div>
+                                <div class="fw-bold fs-5">駅近の立地　鎌倉駅徒歩5分</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works5.webp" class="img-fluid w-100" alt="Works5"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#逗子　#リノベーション</div>
+                                <div class="fw-bold fs-5">光と風のリビング　Terrace 逗子</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works6.webp" class="img-fluid w-100" alt="Works6"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#農業　#摘み取り体験</div>
+                                <div class="fw-bold fs-5">#湘南葡萄農園　グレイプファーム</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./IMG/Works7.webp" class="img-fluid w-100" alt="Works7"></a>
+                            <div class="mt-3">
+                                <div class="mb-1 small">#辻堂　#新築</div>
+                                <div class="fw-bold fs-5">To The Beach　Surf's UP　辻堂</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination mt-4"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- worksセクションの直後に追加 -->
+        <section class="news py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- 左カラム：見出し＋ボタン -->
+                    <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                        <div class="news-header-row d-flex flex-lg-column align-items-center align-items-lg-start mb-3">
+                            <h2 class="fw-bold display-3 english-font">News</h2>
+                            <div class="ms-4 ms-lg-0 viewmore-row d-flex align-items-center gap-3 mt-3"
+                                style="position:relative;">
+                                <span class="viewmore-text fw-bold english-font"
+                                    style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW ALL</span>
+                                <a href="#"
+                                    class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                                    style="width:60px; height:60px; border:2px solid #000; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24"
+                                        style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <polygon points="8,6 18,12 8,18" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 右カラム：リスト -->
+                    <div class="col-12 col-lg-9">
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-center py-5 border-bottom">
+                                <span class="me-4 english-font news-date">xxxx.xx.xx</span>
+                                <span class="me-4 fw-bold english-font news-cat">Information</span>
+                                <p class="japanese-font mb-0 news-body">年末年始休業のお知らせ</p>
+                            </li>
+                            <li class="d-flex align-items-center py-5 border-bottom">
+                                <span class="me-4 english-font news-date">xxxx.xx.xx</span>
+                                <span class="me-4 fw-bold english-font news-cat">Media</span>
+                                <p class="japanese-font mb-0 news-body">横浜テレビに取材を受けました！</p>
+                            </li>
+                            <li class="d-flex align-items-center py-5 border-bottom">
+                                <span class="me-4 english-font news-date">xxxx.xx.xx</span>
+                                <span class="me-4 fw-bold english-font news-cat">Information</span>
+                                <p class="japanese-font mb-0 news-body">xx.xxよりぶどうの収穫体験が始まります。</p>
+                            </li>
+                            <li class="d-flex align-items-center py-5 border-bottom">
+                                <span class="me-4 english-font news-date">xxxx.xx.xx</span>
+                                <span class="me-4 fw-bold english-font news-cat">Release</span>
+                                <p class="japanese-font mb-0 news-body">あの有名な一級建築士とのコラボ作品が竣工</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /newsセクション -->
+
+        <section class="message-section py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- 左カラム -->
+                    <div class="col-lg-8 position-relative">
+                        <div class="small fw-bold mb-0">ご挨拶</div>
+                        <h2 class="display-2 fw-bold mb-0 english-font">Message</h2>
+                        <div class="position-relative" style="margin-top:0; max-width:750px;">
+                            <div class="message-img-zoom">
+                                <img src="./IMG/Message.webp" alt="Message" class="img-fluid"
+                                    style="width:100%; height:auto;">
+                            </div>
+                            <!-- テキストとボタンを画像上に絶対配置 -->
+                            <div class="message-img-overlay position-absolute w-100 h-100 top-0 start-0"
+                                style="pointer-events:none;">
+                                <div class="message-overlay-text position-absolute"
+                                    style="top:2.5rem; right:-12rem; text-align:left; pointer-events:auto;">
+                                    <div class="message-underline japanese-font"
+                                        style="font-size:2.5rem; font-weight:bold; border-bottom:2px solid #222; display:inline-block; line-height:1.3;">
+                                        地域に愛される</div><br>
+                                    <div class="message-underline japanese-font"
+                                        style="font-size:2.5rem; font-weight:bold; border-bottom:2px solid #222; display:inline-block; line-height:1.3;">
+                                        会社を目指して</div>
+                                </div>
+                                <a href="#"
+                                    class="viewmore-circle-btn d-flex align-items-center justify-content-center position-absolute"
+                                    style="width:100px; height:100px; right:-50px; bottom:25px; border:2px solid #000; border-radius:50%; background:none; overflow:visible; transition:all 0.4s; z-index:2; pointer-events:auto;">
+                                    <svg width="40" height="40" viewBox="0 0 24 24"
+                                        style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <polygon points="8,6 18,12 8,18" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information-section py-5">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <!-- 左カラム：Recruit -->
+                    <div class="col-12 col-lg-6 position-relative">
+                        <div class="small fw-bold mb-1">採用情報</div>
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <h2 class="display-2 fw-bold mb-0 english-font">Recruit</h2>
+                            <a href="#" class="viewmore-circle-btn d-flex align-items-center justify-content-center"
+                                style="width:80px; height:80px; border:2px solid #000; border-radius:50%; background:none; overflow:visible; transition:all 0.4s; z-index:2;">
+                                <svg width="40" height="40" viewBox="0 0 24 24"
+                                    style="display:block; margin:auto; transition:fill 0.3s;"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="8,6 18,12 8,18" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="position-relative info-img-zoom">
+                            <img src="./IMG/Recruit.webp" alt="Recruit" class="img-fluid w-100"
+                                style="max-width:600px;">
+                        </div>
+                    </div>
+                    <!-- 右カラム：Sustainability -->
+                    <div class="col-12 col-lg-6 position-relative">
+                        <div class="small fw-bold mb-1">サステナビリティ</div>
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <h2 class="display-2 fw-bold mb-0 english-font">Sustainability</h2>
+                            <a href="#" class="viewmore-circle-btn d-flex align-items-center justify-content-center"
+                                style="width:80px; height:80px; border:2px solid #000; border-radius:50%; background:none; overflow:visible; transition:all 0.4s; z-index:2;">
+                                <svg width="40" height="40" viewBox="0 0 24 24"
+                                    style="display:block; margin:auto; transition:fill 0.3s;"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="8,6 18,12 8,18" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="position-relative info-img-zoom">
+                            <img src="./IMG/Sustainability.webp" alt="Sustainability" class="img-fluid w-100"
+                                style="max-width:600px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- blog セクション -->
+        <section class="blog-section py-5" id="blog">
+            <div class="container">
+                <div class="d-flex align-items-center mb-2">
+                    <h2 class="display-3 fw-bold mb-0">Blog</h2>
+                </div>
+                <div class="mb-4 mt-2 japanese-font">ブログ</div>
+                <div class="row gx-5 gy-5 justify-content-center">
+                    <!-- 1つ目のブログカード -->
+                    <div class="col-12 col-lg-4 d-flex flex-column">
+                        <div class="w-100 mb-3 blog-img-zoom">
+                            <img src="./IMG/Blog1.webp" alt="Blog1" class="img-fluid w-100"
+                                style="object-fit:cover; aspect-ratio:4/3;">
+                        </div>
+                        <div class="fw-bold fs-5 text-start mb-2 japanese-font">大好きなカメラが仕事にも生かされて</div>
+                        <div class="english-font mb-1 text-start">XXXX.XX.XX</div>
+                        <div class="mb-4 text-start">
+                            <a href="#"># スタッフブログ</a>
+                        </div>
+                    </div>
+                    <!-- 2つ目のブログカード -->
+                    <div class="col-12 col-lg-4 d-flex flex-column">
+                        <div class="w-100 mb-3 blog-img-zoom">
+                            <img src="./IMG/Blog2.webp" alt="Blog2" class="img-fluid w-100"
+                                style="object-fit:cover; aspect-ratio:4/3;">
+                        </div>
+                        <div class="fw-bold fs-5 text-start mb-2 japanese-font">新しいみんなの溜まり場が施行開始</div>
+                        <div class="english-font mb-1 text-start">XXXX.XX.XX</div>
+                        <div class="mb-4 text-start">
+                            <a href="#"># お仕事紹介</a>
+                        </div>
+                    </div>
+                    <!-- 3つ目のブログカード -->
+                    <div class="col-12 col-lg-4 d-flex flex-column">
+                        <div class="w-100 mb-3 blog-img-zoom">
+                            <img src="./IMG/Blog3.webp" alt="Blog3" class="img-fluid w-100"
+                                style="object-fit:cover; aspect-ratio:4/3;">
+                        </div>
+                        <div class="fw-bold fs-5 text-start mb-2 japanese-font">前職の経験をもとに裁量発揮</div>
+                        <div class="english-font mb-1 text-start">XXXX.XX.XX</div>
+                        <div class="mb-4 text-start">
+                            <a href="#"># スタッフブログ</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- VIEW ALL ボタン -->
+                <div class="d-flex justify-content-center mt-5">
+                    <div class="viewmore-row d-flex align-items-center gap-3" style="position:relative;">
+                        <span class="viewmore-text fw-bold"
+                            style="font-size:1.2rem; letter-spacing:0.05em; z-index:2;">VIEW ALL</span>
+                        <a href="#"
+                            class="viewmore-circle-btn d-flex align-items-center justify-content-center text-white"
+                            style="width:60px; height:60px; border:2px solid #000; border-radius:50%; background:none; position:relative; overflow:hidden; transition:all 0.4s; margin-left:0;">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); transition:fill 0.3s;"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="8,6 18,12 8,18" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /blog セクション -->
+
+        <!-- contact セクション -->
+        <section class="contact position-relative d-flex align-items-center justify-content-center"
+            style="min-height:60vh;">
+            <img src="./IMG/Contact.webp" alt="Contact"
+                class="position-absolute w-100 h-100 object-fit-cover top-0 start-0" style="z-index:1;">
+            <div class="position-absolute w-100 h-100 top-0 start-0" style="background:rgba(0,0,0,0.4);z-index:2;">
+            </div>
+            <div class="container position-relative d-flex flex-column align-items-center justify-content-center text-center"
+                style="z-index:3;">
+                <div class="text-white mb-3 fs-5 japanese-font">ご相談事はいつでもお気軽にお問い合わせください。</div>
+                <div class="d-flex align-items-center justify-content-center contact-main-btn group">
+                    <span class="display-1 fw-bold text-white me-3">Contact Us</span>
+                    <span class="contact-arrow d-inline-flex align-items-center" style="transition:transform 0.3s;">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 30H45" stroke="white" stroke-width="4" stroke-linecap="round" />
+                            <path d="M38 23L45 30L38 37" stroke="white" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- フッター -->
+    <footer class="footer w-100 pt-5 pb-3 position-relative" style="background: #262626; color: #fff;">
+        <div class="container-fluid px-0" style="padding-left:0; padding-right:0;">
+            <div class="footer-top-info d-flex flex-wrap justify-content-start align-items-center gap-4 mb-4 w-100 text-start"
+                style="padding-left:4vw; padding-right:4vw;">
+                <span class="japanese-font fw-bold" style="font-size:1.5rem;">㍿Sample Estate</span>
+                <span class="japanese-font" style="font-size:1rem;">神奈川県鎌倉市さんぷる町3-3-3</span>
+                <span class="english-font" style="font-size:1.1rem;">0467-33-3333</span>
+            </div>
+            <div class="footer-hr-wrap d-none d-md-block" style="padding-left:4vw; padding-right:4vw;">
+                <hr class="border-secondary my-4" style="opacity:0.4; width:100%;">
+            </div>
+            <div class="row mb-4 w-100" style="padding-left:4vw; padding-right:4vw;">
+                <div class="col mb-3 japanese-font">
+                    <div class="fw-bold mb-2">Sample Estateについて</div>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white text-decoration-none">私たちにできること</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">お知らせ</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">実績</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">ブログ</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3 japanese-font">
+                    <div class="fw-bold mb-2">事業案内</div>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white text-decoration-none">不動産事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">プロパティマネジメント事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">農業事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">アパート・マンション事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">リノベーション事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">分譲事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">スマートシティプロジェクト事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">不動産ICT事業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">コンビニ事業</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3 japanese-font">
+                    <div class="fw-bold mb-2">会社案内</div>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white text-decoration-none">ご挨拶</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">経営理念</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">会社概要</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">グループ企業</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">アクセス</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-3 japanese-font">
+                    <div class="fw-bold mb-2">採用情報</div>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white text-decoration-none">採用メッセージ</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">スタッフ紹介</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">募集職種</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">エントリー</a></li>
+                        <li class="pt-4"><a href="#" class="text-white text-decoration-none">お問い合わせ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-hr-wrap" style="padding-left:4vw; padding-right:4vw;">
+                <hr class="border-secondary my-4" style="opacity:0.4; width:100%;">
+            </div>
+            <div class="footer-bottom position-relative mt-5"
+                style="min-height:48px; padding-left:4vw; padding-right:4vw;">
+                <a href="#" class="footer-instagram position-absolute start-0 bottom-0 mb-2 ms-2" style="z-index:2;">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="28" height="28" rx="7" stroke="white" stroke-width="2" />
+                        <circle cx="16" cy="16" r="7" stroke="white" stroke-width="2" />
+                        <circle cx="23.2" cy="8.8" r="1.2" fill="white" />
+                    </svg>
+                </a>
+                <div class="english-font text-white position-absolute end-0 bottom-0 mb-2 me-2"
+                    style="font-size:1rem; z-index:2;">
+                    <span class="me-2">© Sample Estate All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
